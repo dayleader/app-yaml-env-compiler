@@ -14,4 +14,4 @@ jobs:
     steps:
 
     - name: Test compiler
-      uses: actions/app-yaml-env-compiler@v1
+      uses: ikuanyshbekov/app-yaml-env-compiler@v1
