@@ -12,6 +12,8 @@ import (
 )
 
 func main() {
+	fmt.Println("Ready to serve ...")
+	
 	filename, _ := filepath.Abs("app.yaml")
 	yamlFile, err := ioutil.ReadFile(filename)
 	if err != nil {
