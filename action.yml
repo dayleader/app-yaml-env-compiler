@@ -1,13 +1,5 @@
-name: 'AppEngine app.yaml environment variable compiler'
+name: 'AppEngine environment variable compiler'
 description: 'Compiles environment variables for the app.yaml'
-inputs:
-  app-yaml-path:
-    description: 'Path of the app.yaml file'
-    required: true
-    default: '/app.yaml'
-outputs:
-  compiled-app-yaml-path:
-    description: 'Path of the compiled app.yaml file'
 runs:
   using: 'docker'
   image: 'Dockerfile'
