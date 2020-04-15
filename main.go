@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Ready to serve ...")
+	fmt.Println("Ready to compile ...")
 	
 	filename, _ := filepath.Abs("app.yaml")
 	yamlFile, err := ioutil.ReadFile(filename)
@@ -25,6 +25,8 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	
+	fmt.Println(fmt.Sprintf("Env variables: %v",mapResult["env_variables"]))
 
 	for k, any := range mapResult {
 		if k == "env_variables" {
