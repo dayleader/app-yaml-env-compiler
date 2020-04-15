@@ -1,5 +1,8 @@
-name: 'AppEngine environment variable compiler'
-description: 'Compiles environment variables for the app.yaml'
+name: 'GAE environment variable compiler'
+description: 'Compiles and swaps environment variables in app.yaml with the minimal effort'
+branding:
+  icon: 'cloud'
+  color: 'blue'
 runs:
   using: 'docker'
   image: 'Dockerfile'
