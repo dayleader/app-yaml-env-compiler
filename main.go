@@ -26,7 +26,7 @@ func main() {
 		panic(err)
 	}
 	
-	fmt.Println(fmt.Sprintf("Env variables: %v",mapResult["env_variables"]))
+	fmt.Println(fmt.Sprintf("Env variables will be replaced: %v",mapResult["env_variables"]))
 
 	for k, any := range mapResult {
 		if k == "env_variables" {
