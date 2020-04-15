@@ -52,6 +52,8 @@ func main() {
 			}
 		}
 	}
+	
+	fmt.Println(fmt.Sprintf("Compiled env variables: %v",mapResult["env_variables"]))
 
 	out, err := yaml.Marshal(mapResult)
 	// write the whole body at once
