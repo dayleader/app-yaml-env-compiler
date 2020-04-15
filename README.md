@@ -1,12 +1,12 @@
-##Securely storing environment variables in Google App Engine (GAE) with app.yaml
+## Securely storing environment variables in Google App Engine (GAE) with app.yaml
 
-###The action will help you to solve the following problems:
+### The action will help you to solve the following problems:
 1. If you need to store API keys or other sensitive information in app.yaml as environment variables for deployment on Google App Engine.
 2. If you don't like the idea to push secret environment variables app.yaml to GitHub.
 3. If you don't like the idea to store the environment variables in a datastore.
 
 
-###Action swaps environment variables in app.yaml with the minimal effort
+### Action swaps environment variables in app.yaml with the minimal effort
 
 1. Modify the app.yaml file:
 
