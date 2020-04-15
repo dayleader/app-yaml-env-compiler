@@ -1,4 +1,4 @@
-name: Go
+name: app-yaml-env-compiler
 
 on:
   push:
@@ -9,9 +9,9 @@ on:
 jobs:
 
   build:
-    name: Test compiler
+    name: Test
     runs-on: ubuntu-latest
     steps:
 
-    - name: Set up Go 1.13
+    - name: Test compiler
       uses: actions/app-yaml-env-compiler@v1
