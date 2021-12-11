@@ -17,7 +17,7 @@
 2. Add this action to your workflow:
     
         - uses: actions/checkout@v1
-        - uses: ikuanyshbekov/app-yaml-env-compiler@v1.0
+        - uses: golang-enthusiast/app-yaml-env-compiler@v1.0
           env:
             MY_ENV_VAR1: ${{ secrets.MY_ENV_VAR1 }}
             MY_ENV_VAR2: ${{ secrets.MY_ENV_VAR2 }}  
@@ -33,7 +33,7 @@ Full example with deployment to Google App Engine:
         needs: [build]
     steps:
         - uses: actions/checkout@v1
-        - uses: ikuanyshbekov/app-yaml-env-compiler@v1.0
+        - uses: golang-enthusiast/app-yaml-env-compiler@v1.0
           env:
             MY_ENV_VAR1: ${{ secrets.MY_ENV_VAR1 }}
             MY_ENV_VAR2: ${{ secrets.MY_ENV_VAR2 }}              
